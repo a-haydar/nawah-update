@@ -17,24 +17,26 @@ body, html {
   font-size: 25px;
 }
 
-.topleft {
+.top {
   position: absolute;
-  top: 0;
-  left: 16px;
+  top: 20;
+  left: 50%;
+  transform: translate(-50%, -0%);
 }
 
-.bottomleft {
+.bottom {
   position: absolute;
   bottom: 0;
-  left: 16px;
+  left: 50%;
   font-size: 8px;
+  transform: translate(-50%, -0%);
 }
 
 .middle {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -0%);
   text-align: center;
 }
 
@@ -46,7 +48,7 @@ hr {
 <body>
 
 <div class="bgimg">
-  <div class="topleft">
+  <div class="top">
     <img src="logo.jpg" alt="Old Logo of Nawah Systems" width="222" height="200">
   </div>
   <div class="middle">
@@ -54,7 +56,7 @@ hr {
     <hr>
     <p>قريبا - اكتوبر ٢٠٢٤</p>
   </div>
-  <div class="bottomleft">
+  <div class="bottom">
     <p>جميع الانظمة الداخلية و نظام البريد يعمل بشكل طبيعي</p>
   </div>
 </div>
